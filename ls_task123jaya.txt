@@ -1,0 +1,17 @@
+Task 1: List all files and directories in your current directory.
+For listing all files and directories we have to use the ls -a command. This will shows all the contents including the hidden ones.
+
+Task 2: List all files and directories in your current directory with detailed information (permissions, sizes, etc.).
+To list all the file and dir for permissions we use ls -l command.
+To list all the file and dir for sizes we use ls -lh command.
+To get the total size if the file or dir use du -sh command.
+
+Task 3: List all files in a directory, including hidden ones
+for listing all the hidden files also we use ls -a command this will list the all the hidden files 
+
+Task 4: List files in the /etc directory and sort them by size.
+/etc directory which holds for the sys config files that means these files are relates to sys operations
+for sorting /etc dir in sizes we use ls -ls /etc command. so that it sorts all the etc dir.
+
+Question: What command will show all the files and directories, including hidden ones, in the current directory?
+ls -a.
