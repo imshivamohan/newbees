@@ -1,0 +1,9 @@
+Task 1: Print the current directory you're in.
+for finding the current the location and printing we have to use the command pwd. this will show the current file location.
+
+Task 2: After navigating to different directories, print the full path of the directory you're in each time.
+for navigating dir every time after changing into new we have to use command pwd .lets say
+we are in cd documents. and we want to print it then we  have to type command pwd.this is will shows  the path of that which is /home/sivaaz/documents likewise it will give all paths of the files.
+
+What is the command to print the absolute path of your current working directory?
+pwd.
