@@ -1,0 +1,37 @@
+rm (Remove Files and Directories)
+
+Task 1: Delete a file named oldfile.txt from the current directory.
+for removing a file in in a directory we have to use command as follows:
+>open terminal/bash
+>navigate to the dir using cd command where it contains txt files that u wanna remove 
+>then to dlt the file use rm command followed by its name.txt then the txt file ill be dlted.
+if the file is protected and its not dlting then use a force command which is rm -f name.txt here -f: Stands for force, meaning it will delete without asking for confirmation. likewise we can dlt the file in a dir.then check by typing ls command.
+
+Task 2: Delete a directory named temp_dir (without files inside it).
+rmdir:
+This command is used to delete directories, but it only works if the directory is empty.
+If the directory contains files or subdirectories, it will throw an error.
+>for removing a dir named temp_dir as per instructions first we have to create the file by using mkdir temp_dir so this a new empty file.
+>then to remove this we have to navigate to its paths lets say i'have creted this in documents path so i have to run cd Documents to get the path of the file.
+>then use the ls command to list the contents of the doc file there will be file that we want to remove
+>use rmdir temp_dir
+>this will remove the temp_dir from parent dir.
+>this will only works when the file is empty.
+
+if the file not empty?
+>rm -r temp_dir use this command here -r is a recursive which dlts all the contents of the file orelse we can also use rm -rf temp_dir command to remove.which will Forcefully removes temp_dir and its contents.
+
+Task 3: Delete a directory named backup and all its contents (use a recursive flag)
+To remove any file which is named as anything we just have to use rm -r filename.then it will dlt all the contents in the file.
+
+Task 4: Delete multiple files at once using wildcards (e.g., remove all .txt files).
+>to dlt multiple file by using wildcards we first need to navigate into the dir where the fike that we want to dlt are located by using cd command with its path lets say cd Documents.
+>then ls
+>here for exp: i want to dlt all .txt file in documents so i use rm *.txt this command will dlt all the contents of .txt file inn the dir
+>here,The rm command is used to remove files. Wildcards (*) allow you to match multiple files with similar patterns. 
+
+Question: What is the command to remove a file called oldfile.txt in the current directory?
+rm oldfile.txt
+
+
+
