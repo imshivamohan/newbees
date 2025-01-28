@@ -1,0 +1,21 @@
+cd = change directory 
+types of cd 
+absolute path :specifies the full path from the root directory 
+(windows :cd c:\usersname\documents)
+relative path :specifies the path relative to current directory.
+
+Task 1: Explain how to navigate to the Documents directory from your home directory
+step1:open a terminal
+step2:Ensure u are in home directory :cd ~
+step3: To create a Documents directory: mkdir Documents
+step4: Confirm the Directory Was Created: ls
+step5:Navigate to the Documents Directory: cd Documents
+step6:Confirm You're in the Documents Directory: pwd
+
+Task 2: Navigate back to your home directory from anywhere in the filesystem.
+To navigate back  to the home directory from anywhere we have to use the command cd so that this cd command will takes uus to the home directory.
+
+Task 3: Change to the parent directory of your current working directory.
+To Change to the parent directory of your current working directory we have to use the command cd ..
+
+
