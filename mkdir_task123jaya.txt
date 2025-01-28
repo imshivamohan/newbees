@@ -1,0 +1,17 @@
+mkdir (Make Directory)
+
+Task 1: Create a new directory named test_folder inside your current working directory.
+step1:cd ~ – To ensure you're in the home directory.
+step2:cd Documents – To navigate into the Documents directory.
+step3:mkdir test_folder – To create the new directory.
+
+Task2:Create a directory structure where you make dir1 and inside it another directory dir2
+To do this task fist we have to check where we are for that use command cd ~ . then to check type ls it will list where we are then 
+we have to create the dir1 for that use command mkdir -p dir1. here -p will create a new parent directory then to list and read all the contents type ls -R so that it will shows all the contents  and also it shows the dir1 created or not.dir1 will created.
+after that we have to put dir2 inside dir1 for that we have to do mkdir -p dir1/dir2 then dir2 will be created inside the dir1. after that list by using ls -R then the dir will be created.
+
+Task3:  Create multiple directories in a single command, e.g., dir1, dir2, dir3.
+to create directories in single command we have a command which is mkdir dir1 dir2 dir3. where mkdir is used for creating new empty files.
+
+Question: What command would you use to create a directory called test_folder in your current directory?
+> mkdir test_folder
