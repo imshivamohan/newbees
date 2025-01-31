@@ -1,7 +1,3 @@
-# Create a Markdown file with the test paper content
-
-test_paper_content = """# GitHub Test Pager
-
 ## Instructions:
 - Answer all questions by demonstrating the necessary Git commands in your own Git project.
 - Do not copy answers from external sources.
