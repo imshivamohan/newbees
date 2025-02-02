@@ -7,79 +7,78 @@
    - Move to the parent directory from the current location.  
    
    **Answer:**  
-   ```bash
+     cd ..
 # Student's Answer Here
-```
 
 2. **List Hidden Files**  
    - List all hidden files and directories in the current directory.  
    
    **Answer:**  
-   ```bash
+    ls -a
+
 # Student's Answer Here
-```
 
 3. **Remove a Directory**  
    - Delete a directory named `oldfolder` from the current location.  
    
    **Answer:**  
-   ```bash
+   rmdir oldfolder
+
 # Student's Answer Here
-```
 
 4. **Create a Directory Structure**  
    - Create a directory structure `/home/user/project/src/` using one command.  
    
    **Answer:**  
-   ```bash
+   mkdir -p /home/user/project/src/
+
 # Student's Answer Here
-```
 
 5. **Check Disk Space for a Specific File**  
    - Display the disk space usage of `largefile.tar`.  
    
    **Answer:**  
-   ```bash
+     du -h largefile.tar , ls -lh largefile.tar
+
 # Student's Answer Here
-```
 
 6. **Show Available Space on All Mounted Filesystems**  
    - Display the available space on all mounted filesystems in a human-readable format.  
    
    **Answer:**  
-   ```bash
+   df -h
+
 # Student's Answer Here
-```
 
 7. **Edit a File Using Vim**  
    - Open `readme.txt` with Vim editor.  
    
    **Answer:**  
-   ```bash
+   vi readme.txt
 # Student's Answer Here
-```
 
 8. **Move Multiple Files**  
    - Move `file1.txt`, `file2.txt`, and `file3.txt` from `/home/user/documents/` to `/home/user/backup/`.  
    
    **Answer:**  
-   ```bash
+mv /home/user/documents/file1.txt /home/user/documents/file2.txt /home/user/documents/file3.txt /home/user/backup/   
+
 # Student's Answer Here
-```
 
 9. **Copy Files Recursively**  
    - Copy all files and subdirectories from `/home/user/docs/` to `/home/user/docs_backup/`.  
    
    **Answer:**  
-   ```bash
+   cp -r /home/user/docs/ /home/user/docs_backup/
+   
 # Student's Answer Here
-```
 
 10. **Create a File with a Specific Size**  
     - Create a file named `largefile.txt` with a size of 1GB.  
    
     **Answer:**  
-    ```bash
+ dd if=/dev/zero of=largefile.txt bs=1M count=1024    
+
 # Student's Answer Here
 ```
 
@@ -327,41 +326,36 @@
     - Monitor disk input/output statistics in real-time.  
    
     **Answer:**  
-    ```bash
+    iostat -dx 1
+
 # Student's Answer Here
-```
 
 42. **Change User Password**  
     - Change the password for the user `johndoe`.  
    
     **Answer:**  
-    ```bash
+    sudo passwd johndoe
 # Student's Answer Here
-```
 
 43. **Create a Cron Job**  
     - Create a cron job that runs a backup script every day at midnight.  
    
     **Answer:**  
-    ```bash
+    
 # Student's Answer Here
-```
 
 44. **Check for Open File Descriptors**  
     - List all open file descriptors on the system.  
    
     **Answer:**  
-    ```bash
+     lsof
 # Student's Answer Here
-```
 
 45. **Create a Compressed Archive**  
     - Create a compressed `.tar.gz` archive of the directory `/home/user/documents/`.  
    
     **Answer:**  
-    ```bash
-# Student's Answer Here
-```
+    tar -czvf documents_backup.tar.gz -C /home/user documents/
 
 ## Submission Instructions
 For each task, students must:
