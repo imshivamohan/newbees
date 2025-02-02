@@ -87,24 +87,22 @@
     - Show the last 10 lines of `server.log`.  
    
     **Answer:**  
-    ```bash
-# Student's Answer Here
+    tail -n 10 filename
 ```
 
 12. **Search for a File**  
     - Find a file named `config.yaml` within `/etc/`.  
    
     **Answer:**  
-    ```bash
-# Student's Answer Here
+    find /etc/ -name "config.yaml"
+
 ```
 
 13. **Search for a Pattern in a Directory**  
-    - Search for the word "failed" in all `.log` files within `/var/log/`.  
-   
+    - Search for the word "failed" in all `.log` files within    
     **Answer:**  
     ```bash
-# Student's Answer Here
+grep "pattern"
 ```
 
 14. **Print the Current Working Directory**  
@@ -112,7 +110,7 @@
    
     **Answer:**  
     ```bash
-# Student's Answer Here
+pwd
 ```
 
 15. **Create an Empty File Using the `touch` Command**  
@@ -120,14 +118,16 @@
    
     **Answer:**  
     ```bash
-# Student's Answer Here
+touch filename
 ```
 
 16. **Count the Number of Lines in a File**  
-    - Count the number of lines in `script.sh`.  
+    - Count the number of lines in `script.shtouch filename*  
    
-    **Answer:**  
-    ```bash
+     **Answer:**
+     ```bash
+wc -l filename
+
 # Student's Answer Here
 ```
 
@@ -135,9 +135,7 @@
     - Initialize a new Git repository in the current directory.  
    
     **Answer:**  
-    ```bash
-# Student's Answer Here
-```
+   git init
 
 18. **Clone a Git Repository Using SSH**  
     - Clone a Git repository using SSH from GitHub.  
@@ -145,6 +143,7 @@
     **Answer:**  
     ```bash
 # Student's Answer Here
+go to git repository and copy ssh url from your branch use command git clone url
 ```
 
 19. **View the Git Commit Log**  
@@ -153,6 +152,9 @@
     **Answer:**  
     ```bash
 # Student's Answer Here
+git log
+
+
 ```
 
 20. **Check the Status of a Git Repository**  
@@ -161,6 +163,8 @@
     **Answer:**  
     ```bash
 # Student's Answer Here
+git status
+
 ```
 
 21. **Stage a Single File in Git**  
@@ -337,6 +341,7 @@
     **Answer:**  
     ```bash
 # Student's Answer Here
+sudo passwd johnde
 ```
 
 43. **Create a Cron Job**  
@@ -353,6 +358,8 @@
     **Answer:**  
     ```bash
 # Student's Answer Here
+lsof
+
 ```
 
 45. **Create a Compressed Archive**  
