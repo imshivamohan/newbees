@@ -239,7 +239,7 @@
     - Display detailed information about the system (OS, kernel version, etc.).  
    
     **Answer:**  
-    uname -a
+    ```bash
 # Student's Answer Here
 ```
 
@@ -247,15 +247,15 @@
     - Display the available physical and swap memory on the system.  
    
     **Answer:**  
-    
+    ```bash
 # Student's Answer Here
 ```
-    free -m
+
 32. **Check Network Interface Configuration**  
     - Display the network interface configuration for the system.  
    
     **Answer:**  
-    ip a
+    ```bash
 # Student's Answer Here
 ```
 
@@ -263,7 +263,7 @@
     - Display all the listening network ports on the system.  
    
     **Answer:**  
-    ss -tuln
+    ```bash
 # Student's Answer Here
 ```
 
@@ -271,7 +271,7 @@
     - Display all active user sessions on the system.  
    
     **Answer:**  
-    who 
+    ```bash
 # Student's Answer Here
 ```
 
@@ -279,7 +279,7 @@
     - Display the disk usage of `/home/` in a human-readable format.  
    
     **Answer:**  
-    du -sh /home 
+    ```bash
 # Student's Answer Here
 ```
 
@@ -287,7 +287,7 @@
     - Display the last 50 lines of the system log file `/var/log/syslog`.  
    
     **Answer:**  
-    journalct1 -u 'service_name'
+    ```bash
 # Student's Answer Here
 ```
 
@@ -295,7 +295,7 @@
     - Change the permissions of `testfile.txt` to be read and write for the owner only.  
    
     **Answer:**  
-    setfac1 'user name'
+    ```bash
 # Student's Answer Here
 ```
 
@@ -303,7 +303,7 @@
     - Change the ownership of `backup.sql` to user `admin`.  
    
     **Answer:**  
-    chown admin:backup.sql 
+    ```bash
 # Student's Answer Here
 ```
 
@@ -311,7 +311,7 @@
     - Create a symbolic link to the file `data.txt` named `data_link.txt`.  
    
     **Answer:**  
-    in -s data_link.txt
+    ```bash
 # Student's Answer Here
 ```
 
@@ -319,7 +319,7 @@
     - Display the current kernel version of the system.  
    
     **Answer:**  
-    uname -r
+    ```bash
 # Student's Answer Here
 ```
 
