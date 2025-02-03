@@ -360,4 +360,4 @@ mv /home/user/documents/file1.txt /home/user/documents/file2.txt /home/user/docu
 ## Submission Instructions
 For each task, students must:
 - Write down the exact commands they used.
-dd- Provide a screenshot or file output where required.
+- Provide a screenshot or file output where required.
