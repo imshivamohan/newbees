@@ -366,4 +366,4 @@
 ## Submission Instructions
 For each task, students must:
 - Write down the exact commands they used.
-- Provide a screenshot or file output where required.
+dd- Provide a screenshot or file output where required.
